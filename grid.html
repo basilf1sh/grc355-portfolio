@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Catherine Falls :: Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kedebideri:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+	body {
+		background: #F8AD9D;
+	} #portfolio {
+		width: 800px;
+		height: 400px;
+		border: 1px dashed white;
+		margin: 24px auto;
+		display: grid;
+		grid-template: auto / repeat(3,auto);
+		background: #FFDAB9;
+	} h1 {
+		font: 48pt/1.4em 'Kedebideri';
+		font-weight: bold;
+		text-align: center;
+		color: white;
+	} img {
+		width: 200px;
+		height: auto;
+		margin: 24px 12px;
+	} figure {
+		//background: pink;
+		margin: 24px 12px;
+		width: 200px;
+	} figcaption {
+		font: italic 13pt/1.4em 'Kedebideri';
+		text-align: center;
+		color: black;
+	} table {
+		margin: 24px auto;
+		font: 14pt/1.4em 'Kedebideri';
+		border: 1px solid white;
+		padding: 12px;
+		border-collapse: collapse;
+		color: white;
+	} td, th {
+		padding: 6px 18px;
+	} tr:nth-child(odd) {
+		background: #F08080;
+	} tr:nth-child(even) {
+		background: #F4978E;
+	} ul {
+		width: 800px;
+		height: auto;
+		//background: #FFDAB9;
+		margin: 24px auto;
+		display: grid;
+		grid-template: auto / repeat(3,auto);
+		font: 14pt/2.5em 'Kedebideri';
+		text-weight: Bold;
+		text-align: center;
+	} li {
+		list-style: none;
+		background: #F08080;
+	} a {
+		text-decoration: none;
+		color: white;
+	} a li:hover {
+		background: #FBC4AB;
+	}
+</style>
+</head>
+
+<body>
+	<ul><a href="index.html">
+		<li>Flex Portfolio</li>
+		</a>
+		<a href="grid.html">
+		<li>Grid Portfolio</li>
+		</a>
+		<a href="form.html">
+		<li>Contact Me</li>
+		</a>
+	</ul>
+	<h1>Portfolio</h1>
+	<div id="portfolio">
+		<figure>
+		<a href="image-1.jpg">
+		<img src="thumb-image-1.jpg" />
+		</a>
+		<figcaption>Marker Art</figcaption>
+		</figure>
+		<figure>
+		<a href="image-2.jpg">
+		<img src="thumb-image-2.jpg" />
+		</a>
+		<figcaption>Digital Painting</figcaption>
+		</figure>
+		<figure>
+		<a href="image-3.jpg">
+		<img src="thumb-image-3.jpg" />
+		</a>
+		<figcaption>Marker Art</figcaption>
+		</figure>
+	</div>
+	<table>
+		<tr>
+			<th>Title</th>
+			<th>Medium</th>
+			<th>Year</th>
+		</tr>
+		<tr>
+			<td>The Ghost of Liyue</td>
+			<td>Marker and Colored Pencil</td>
+			<td>2021</td>
+		</tr>
+		<tr>
+			<td>Doomed Lovers</td>
+			<td>Digital Painting</td>
+			<td>2025</td>
+		</tr>
+		<tr>
+			<td>Great Witch of Calamity</td>
+			<td>Marker and Colored Pencil</td>
+			<td>2022</td>
+		</tr>
+	</table>
+</body>
+</html>
